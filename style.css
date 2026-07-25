@@ -311,3 +311,10 @@ html, body{
         font-size: 22px;
     }
 }
+.card p{
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    margin: 10px;
+    line-height: 1.5;
+}
