@@ -24,9 +24,11 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:15px 8%;
+box-sizing:border-box;
+flex-wrap:wrap;
 background:rgba(0,51,102,.9);
 backdrop-filter:blur(10px);
-z-index:999;
+z-index:9999;
 }
 
 .logo{
@@ -295,4 +297,7 @@ body::before{
     font-size:18px;
     font-weight:500;
     line-height:1.8;
+}
+html, body{
+    overflow-x:hidden;
 }
