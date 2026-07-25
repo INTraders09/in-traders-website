@@ -301,3 +301,13 @@ body::before{
 html, body{
     overflow-x:hidden;
 }
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 22px;
+    }
+}
